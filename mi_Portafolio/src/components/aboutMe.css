@@ -1,0 +1,89 @@
+
+
+.titleAboutMe {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 10px;
+  height: 15vh;
+}
+
+
+.aboutMe {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.i_am{
+    margin: 10px;
+}
+
+.i_am h1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.i_am .name h1 {
+    font-size: 28px;
+    color: rgb(53, 141, 172);
+}
+
+.imagePerfil {
+    margin: auto;
+    min-width: 250px;
+    max-width: 700%;
+    height: auto;
+    border: .5px solid yellow;
+    box-shadow: 0 0 8px .2px yellow;
+    
+
+}
+
+.imagePerfil:hover {
+    border: 1px solid yellow;
+    box-shadow: 0 0 12px 1.2px yellow;
+    transform: scale(1.02);
+   
+    
+
+}
+
+.imagePerfil img {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+
+
+
+.btnContacMe button{
+    border: 0;
+    background-color: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(71, 23, 96) 5%, rgb(95, 20, 176) 100%);
+}
+
+.btnContacMe button h1{
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+
+
+
+

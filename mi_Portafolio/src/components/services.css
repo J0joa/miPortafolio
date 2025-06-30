@@ -1,0 +1,66 @@
+ .titleServices {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.servicios{
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr ));
+    place-items: center;
+    height: 90vh;
+    
+}
+
+.titleServices{
+    height: 10vh;
+    margin: 0 0 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.service{
+    border: 0.5px solid rgb(221, 0, 255);
+    margin: 20px;
+    max-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(87, 50, 120), rgb(69, 30, 89), rgb(63, 29, 85));
+    transition: 0.2s ease-in-out;
+    box-shadow: none;
+}
+
+.service:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 1.5px rgb(213, 47, 255);
+}
+
+.service> h3, h4, p {
+    margin: 20px;
+    padding: 5px;
+    
+
+}
+
+.service> h3 {
+    font-size: 22px;
+    color: rgb(202, 3, 192);
+}
+
+.service> h4 {
+    font-size: 20px;
+    color: rgb(199, 212, 223);
+}
+.service> p {
+    font-size: 17px;
+    color: rgb(199, 212, 223);
+}
+

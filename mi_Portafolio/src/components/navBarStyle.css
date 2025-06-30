@@ -1,0 +1,187 @@
+.navElements {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  background-color: rgba(108, 108, 255, 0.39);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: red;
+  box-shadow: 0 0 12px 1.2px rgb(88, 183, 255);
+  height: 60px;
+}
+
+.sectionNav {
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.699);
+  display: flex;
+    flex-direction: column;
+    border: 1px blue solid;
+    box-shadow: 0 0 12px 1.2px rgb(88, 183, 255);
+  
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.miName {
+  position: relative;
+  left: 45%;
+  z-index: 4;
+  height: 50px;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  justify-items: center;
+  
+}
+
+.miName > button{
+  position: absolute;
+  top: 0.5px;
+  left: 45%;
+  z-index: 5;
+  background-color: blue;
+  width: 50px;
+}
+
+
+
+.miName h1 {
+  position: relative;
+  top: 15px;
+  left: 100px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.miName i {
+  position: absolute;
+  z-index: 3;
+  display: none;
+  border: 1px solid blue;
+  
+}
+
+@media (max-width: 1000px) {
+  .navElements {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px blue solid;
+    box-shadow: 0 0 12px 1.2px rgb(88, 183, 255);
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(15, 5, 20) 5%, rgb(39, 8, 72) 100%);
+  }
+
+  .sectionNav {
+    position: relative;
+    z-index: 3;
+    
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .miName h1 {
+    display: none;
+  }
+
+  .miName i {
+    display: block;
+  }
+}
+
+.options {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.options a {
+  list-style: none;
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+  text-decoration: none;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  color: rgb(190, 255, 230);
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  transition: 0.3s ease-in-out;
+}
+
+.options a:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+.linkContac {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 180px;
+}
+
+.navElements div button {
+  border-style: none;
+  height: 50px;
+  background: linear-gradient(45deg, red, blue);
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 30px;
+  margin: 5px;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.linkContac h1 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: aliceblue;
+  transition: 0.3s ease-in-out;
+}
+
+.linkContac h1:hover {
+  color: red;
+}
+
+.navElements button:hover {
+  background: linear-gradient(45deg, rgb(98, 0, 255), rgb(89, 255, 0));
+  transform: scale(1.01);
+}
+
+.btnContac {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}

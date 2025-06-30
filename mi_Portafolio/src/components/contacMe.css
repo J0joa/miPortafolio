@@ -1,0 +1,138 @@
+
+.titleContacMe {    
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.ContacMe {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: center;
+   
+    
+}
+
+
+
+
+
+
+.aboutMec h2 {
+    position: relative;
+    top: 30px;
+    margin: 20px;
+    font-size: 35px;
+    color: rgb(167, 81, 247);
+}
+
+
+.aboutMec p {
+    position: relative;
+    top: 30px;
+    margin: 50px;
+    font-size: 18px;
+    
+}
+
+.aboutMec div {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    left: 50px;
+    margin-bottom: 30px;
+    max-width: 300px;
+    
+
+}
+
+.aboutMec div li {
+    list-style: none;
+    padding: 10px;
+    margin: 8px;
+    max-width: 350px;
+    
+}
+
+.aboutMec span {
+    font-size: 17px;
+}
+
+.aboutMec  i{
+    width: 30px;
+    transform: scale(2);
+    margin: 20px;
+    color: blue;
+}
+
+
+/* style form  */
+
+.form {
+    position: relative;
+    margin-top: 30px;
+    height: 85vh;
+}
+
+.form, .name, .email, .message{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form label, input, textarea {
+    margin: 10px;
+    padding: 5px;
+    font-size: 17px;
+    
+    
+}
+
+.form input, textarea {
+    text-decoration: none;
+    border: 1px solid rgb(174, 174, 250);
+    border-radius: 5px;
+    background-color: rgba(84, 13, 135, 0.603);
+    border: 1px solid blueviolet;
+    
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form button {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+    border: 0;
+    margin:20px ;
+    background-color: rgb(221, 221, 239);
+    border-radius: 4px;
+    transition: 0.32s ease-in-out;
+}
+
+
+.form button:hover{
+    background-color: rgb(159, 159, 227);
+    color: white;
+    transform: scale(1.02);
+}
+
+
+
+
+
